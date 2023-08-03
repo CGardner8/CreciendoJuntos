@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
-.title{
+#titulo {
     font-family: 'Belanosima', sans-serif;
     font-size: xx-large;
     margin: 0;
+}
+
+#navbarNavAltMarkup {
+    flex-grow: 0;
+}
+
+a:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+i:hover {
+    color: rgb(0, 0, 0) !important; 
 }
