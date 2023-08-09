@@ -10,8 +10,8 @@
     flex-grow: 0;
 }
 
-a:hover {
-    color: rgb(0, 0, 0) !important;
+a.nav-link:hover {
+    color: rgb(0, 0, 0)!important;
 }
 
 i:hover {
@@ -43,4 +43,14 @@ i:hover {
 .wiggle:hover {
     display: inline-block;
     animation: wiggle 2.5s infinite;
+}
+
+
+address a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+address a:hover {
+    color: rgb(220, 53, 69)
 }
