@@ -111,12 +111,6 @@
             <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalMaternal">
               Más información
             </button>
-            <p class="card-text">
-              - Trabajo personalizado <br>
-              - Psicomotror <br>
-              - Cantos y ritmos
-            </p>
-            <p class="card-text"></p>
           </div>
         </div>
         <div class="card text-dark bg-warning mb-3">
@@ -137,10 +131,6 @@
             <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalHorario">
               Más información
             </button>
-            <p class="card-text">
-              Guardería con horario extendido de las 6:30 hrs a 16:00 hrs.
-            </p>
-            <p class="card-text"></p>
           </div>
         </div>
         <div class="card text-white bg-success mb-3">
@@ -148,13 +138,9 @@
           <div class="card-body d-flex flex-column align-content-center">
             <h4 class="card-title text-center">Regularización</h4>
             <!-- Botón trigger modal -->
-            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalHorario">
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalRegularizacion">
               Más información
             </button>
-            <p class="card-text">
-              Clases de regularización con atención personalizada en lecto escritura, matemáticas y tareas.
-            </p>
-            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -200,6 +186,25 @@
   </div>
 
 <!-- Modales -->
+  <!-- Maternal -->
+  <div class="modal fade" id="modalMaternal" data-bs-backdrop="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPrescolarLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content  bg-primary-subtle">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalPrescolarLabel">Maternal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">
+            - Trabajo personalizado <br>
+            - Psicomotror <br>
+            - Cantos y ritmos
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Preescolar -->
 <div class="modal fade" id="modalPrescolar" data-bs-backdrop="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPrescolarLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -216,6 +221,40 @@
           - Educación física <br>
           - Taller de lectura <br>
           - Cuidado del medio ambiente
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Horario Extendido -->
+<div class="modal fade" id="modalHorario" data-bs-backdrop="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPrescolarLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content  bg-danger-subtle">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalPrescolarLabel">Horario Extendido</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="card-text">
+          Guardería con horario extendido de las 6:30 hrs a 16:00 hrs.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Regularización -->
+<div class="modal fade" id="modalRegularizacion" data-bs-backdrop="modal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalPrescolarLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content  bg-success-subtle">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalPrescolarLabel">Regularización</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="card-text">
+          Clases de regularización con atención personalizada en lecto escritura, matemáticas y tareas.
         </p>
       </div>
     </div>
